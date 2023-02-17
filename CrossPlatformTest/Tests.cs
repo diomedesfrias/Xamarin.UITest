@@ -67,15 +67,15 @@ namespace CrossPlatformTest
             app.SwipeLeftToRight();
         }
 
-        //Recorded Hybrid application code
-        [Test]
-        public void NewTest()
-        {
-            app.EnterText(x => x.Css("INPUT#txtUserName"), "EATEST");
-            app.Tap(x => x.XPath("//span[text()='About']"));
-            app.Tap(x => x.XPath("//span[text()='Contact']"));
-            app.Tap(x => x.XPath("//span[text()='Home']"));
-        }
+        ////Recorded Hybrid application code
+        //[Test]
+        //public void NewTest()
+        //{
+        //    app.EnterText(x => x.Css("INPUT#txtUserName"), "EATEST");
+        //    app.Tap(x => x.XPath("//span[text()='About']"));
+        //    app.Tap(x => x.XPath("//span[text()='Contact']"));
+        //    app.Tap(x => x.XPath("//span[text()='Home']"));
+        //}
 
 
         [Test]
